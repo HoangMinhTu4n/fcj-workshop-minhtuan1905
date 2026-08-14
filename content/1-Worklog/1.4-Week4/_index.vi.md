@@ -1,59 +1,31 @@
 ---
 title: "Worklog Tuần 4"
 date: 2024-01-01
-weight: 1
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 4:
 
-### Mục tiêu tuần 4:
+* Tìm hiểu bảo mật nâng cao và vận hành hệ thống trên AWS.
+* Tìm hiểu kiểm soát truy cập chi tiết với IAM Policies, Conditions và Permission Boundaries.
+* Tìm hiểu mã hóa dữ liệu với AWS KMS, quản lý thông tin xác thực với Secrets Manager.
+* Tìm hiểu phát hiện mối đe dọa (GuardDuty), tuân thủ bảo mật (Security Hub), vận hành và sao lưu hệ thống.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Nhiệm vụ trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| STT | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiểm soát truy cập chi tiết: IAM Policies và Conditions (giới hạn theo IP, thời gian, MFA...), IAM Permission Boundaries | 13/07/2026 | 14/07/2026 | |
+| 2 | - Tìm hiểu mã hóa dữ liệu với AWS KMS: Customer Managed Key và AWS Managed Key <br> - Tạo KMS Key, thiết lập Key Policy | 14/07/2026 | 15/07/2026 | |
+| 3 | - Tìm hiểu quản lý thông tin xác thực và phát hiện mối đe dọa: AWS Secrets Manager, AWS GuardDuty <br> - Tìm hiểu quản lý tuân thủ bảo mật tập trung: AWS Security Hub | 15/07/2026 | 16/07/2026 | |
+| 4 | - Tìm hiểu vận hành và sao lưu hệ thống: AWS Systems Manager (Run Command, Patch Manager, Session Manager), AWS Backup | 16/07/2026 | 17/07/2026 | |
 
+### Kết quả Tuần 4:
 
-### Kết quả đạt được tuần 4:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* Áp dụng được IAM Policies có điều kiện và Permission Boundaries để kiểm soát quyền truy cập chi tiết.
+* Tạo và sử dụng được KMS Key để mã hóa/giải mã dữ liệu; sử dụng Secrets Manager để lưu trữ thông tin xác thực an toàn.
+* Bật và cấu hình GuardDuty để phát hiện hoạt động bất thường; bật Security Hub để tổng hợp cảnh báo bảo mật tập trung.
+* Quản lý EC2 tập trung và truy cập từ xa an toàn bằng Systems Manager; thiết lập cơ chế sao lưu tự động với AWS Backup.
 

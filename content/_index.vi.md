@@ -7,23 +7,29 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Hoàng Minh Tuấn
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Mã số sinh viên:** 3122411232
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Ngày sinh:** 19/05/2004
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Số điện thoại:** 0374329385
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Email:** pokigame0@gmail.com
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Trường:** Đại học Sài Gòn
+
+&emsp; **Khoa:** Công nghệ thông tin
+
+&emsp; **Ngành:** Công nghệ thông tin (CLC)
+
+&emsp; **Lớp:** DCT122C3
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
 &emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** Từ ngày 22/06/2026 đến ngày 15/08/2026
 
 ![Ảnh đại diện của bạn](/images/avatar.png)
 
