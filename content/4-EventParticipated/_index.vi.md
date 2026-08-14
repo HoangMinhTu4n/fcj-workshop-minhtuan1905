@@ -28,3 +28,14 @@ Trong quá trình thực tập, em đã tham gia các events do cộng đồng F
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
 ---
+
+### [Event 2](4.2-Event2/)
+&emsp;**Tên sự kiện:** Cloud Architect
+
+&emsp;**Thời gian:** 11/07/2026
+
+&emsp;**Địa điểm:** Tòa nhà Bitexco, TP. Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự
+
+---

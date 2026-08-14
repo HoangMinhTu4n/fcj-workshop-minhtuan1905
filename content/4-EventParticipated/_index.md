@@ -28,3 +28,14 @@ During my internship, I participated in events organized by the FCAJ community. 
 &emsp;**Role:** Attendee
 
 ---
+
+### [Event 2](4.2-Event2/)
+&emsp;**Event Name:** Cloud Architect
+
+&emsp;**Date & Time:** 11/07/2026
+
+&emsp;**Location:** Bitexco Financial Tower, Ho Chi Minh City
+
+&emsp;**Role:** Attendee
+
+---
